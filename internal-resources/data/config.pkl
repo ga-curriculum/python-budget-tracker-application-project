@@ -1,0 +1,44 @@
+amends "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl"
+
+import "microlessons.pkl" as mls
+
+// See template.pkl for full configuration options available here.
+
+// After modifying this file, use this command to create the final
+// configuration file (config.json) to be used:
+// pkl eval -f json ./internal-resources/data/config.pkl -o %{moduleDir}/%{moduleName}.%{outputFormat}
+
+repo {
+  // This name is shown in the header nav to navigate users home
+  friendlyName = "Budget Tracker Application Project"
+  // This must match the repo name as it appears on GitHub exactly
+  name = "python-budget-tracker-application-project"
+  type = "Project"
+}
+
+courses {
+  // ! Projects are typically not delivered through a canvas landing page
+  // ! meaning "fallback" is the default view most students will see.
+  new {
+    name = "pps"
+    microlessons {
+      mls.projectJourney
+      mls.projectRequirementsAndGuidance
+      mls.projectGitHubRepoUrlDeliverable
+      mls.projectPresentationRequirements
+      mls.projectRequirementsPdf
+    }
+  }
+  new {
+    // Do not remove this fallback course!
+    name = "fallback"
+    microlessons {
+      // add microlessons here, in the order they should be delivered
+      mls.projectJourney
+      mls.projectRequirementsAndGuidance
+      mls.projectGitHubRepoUrlDeliverable
+      mls.projectPresentationRequirements
+      mls.projectRequirementsPdf
+    }
+  }
+}
