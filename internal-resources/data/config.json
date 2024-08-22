@@ -36,12 +36,6 @@
           "dirName": "project-presentation-requirements",
           "type": "Content",
           "videoUrl": ""
-        },
-        {
-          "friendlyName": "Project Requirements PDF",
-          "dirName": "project-requirements-and-guidance/assets/project-requirements.pdf",
-          "type": "Content",
-          "videoUrl": ""
         }
       ],
       "isHeaderShown": true,
@@ -90,12 +84,6 @@
         {
           "friendlyName": "Project Presentation Requirements",
           "dirName": "project-presentation-requirements",
-          "type": "Content",
-          "videoUrl": ""
-        },
-        {
-          "friendlyName": "Project Requirements PDF",
-          "dirName": "project-requirements-and-guidance/assets/project-requirements.pdf",
           "type": "Content",
           "videoUrl": ""
         }

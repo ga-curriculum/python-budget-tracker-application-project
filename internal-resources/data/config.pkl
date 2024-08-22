@@ -26,7 +26,6 @@ courses {
       mls.projectRequirementsAndGuidance
       mls.projectGitHubRepoUrlDeliverable
       mls.projectPresentationRequirements
-      mls.projectRequirementsPdf
     }
   }
   new {
@@ -38,7 +37,6 @@ courses {
       mls.projectRequirementsAndGuidance
       mls.projectGitHubRepoUrlDeliverable
       mls.projectPresentationRequirements
-      mls.projectRequirementsPdf
     }
   }
 }

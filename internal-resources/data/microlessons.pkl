@@ -29,10 +29,3 @@ projectPresentationRequirements = new Template.Microlesson {
   type = "Content"
   videoUrl = ""
 }
-
-projectRequirementsPdf = new Template.Microlesson {
-  friendlyName = "Project Requirements PDF"
-  dirName = "project-requirements-and-guidance/assets/project-requirements.pdf"
-  type = "Content"
-  videoUrl = ""
-}
