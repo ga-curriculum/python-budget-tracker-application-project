@@ -11,7 +11,7 @@ Estimated completion time is around **15 hours**.
 
 ## Content
 
-1. [Project Journey](../project-journey/README.md)
+1. [Project Journey](../project-journey-no-presentation/README.md)
 
 2. [Project Requirements and Guidance](../project-requirements-and-guidance/README.md)
 
