@@ -20,6 +20,14 @@ courses {
   // ! Projects are typically not delivered through a canvas landing page
   // ! meaning "fallback" is the default view most students will see.
   new {
+    name = "pcd"
+    microlessons {
+      mls.projectJourney
+      mls.projectRequirementsAndGuidance
+      mls.projectGitHubRepoUrlDeliverable
+    }
+  }
+  new {
     name = "pps"
     microlessons {
       mls.projectJourney
